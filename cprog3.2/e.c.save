@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int i, j,r=5,k,m,n=1;
+for(i=0;i<r;i++)
+{
+for(j=1;j<r-i;j++)
+{
+printf(" ");
+}
+for(k=0;k<=i;k++)
+{
+m=n*11;
+printf(" %d ",m);
+n++;
+}
+printf("\n");
+}
+return 0;
+}
